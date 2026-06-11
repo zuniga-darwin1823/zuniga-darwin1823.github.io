@@ -1,0 +1,132 @@
+@font-face{
+	font-family: "titulo";
+	src: url(../font/lexend/static/lexend-extrabold.ttf);
+}
+
+@font-face{
+	font-family: "parrafo";
+	src: url(../font/lexend/static/Lexend-Light.ttf);
+}
+
+@font-face{
+	font-family: "subtitulo";
+	src: url(../font/lexend/static/Lexend-Regukar.ttf);
+}
+
+main{
+	width: 80%;
+	margin: 50px auto;
+}
+
+section{
+	background-color: burlywood;
+	border: solid 1px burlywood;
+}
+
+article{
+	width: 48%;
+	height: 400px;
+}
+
+article img{
+	width: 98%;
+}
+
+.foto article,
+.negro article,
+.cuanto article,
+.cuan article{
+	float: left;
+}
+
+.texto{
+	width: 42%;
+	padding: 50px;
+}
+
+.texto h1{
+	font-family: "titulo", sans-serif;
+	font-size: 3rem;
+}
+
+.texto p{
+	font-family: "parrafo", sans-serif;
+}
+
+.texto input{
+	margin-top: 50px;
+	font-family: "parrafo", sans-serif;
+	font-size: 1.2rem;
+	padding: 10px;
+	background-color: burlywood;
+	border: solid 2px #000;
+}
+
+.texto input:hover{
+	background-color: dimgrey;
+	color: #fff;
+}
+
+.limpiar{
+	clear: both;
+}
+
+.negro{
+	background-color: #000;
+	color: #fff;
+}
+
+.negro article,
+.cuanto article{
+	width: 40%;
+	padding: 50px;
+}
+
+.cuanto{
+	background-color: darkgrey;
+}
+
+.cuan{
+	background-color: rosybrown;
+}
+
+.negro article h1,
+.cuanto h1,
+.cuan h1,
+.cuanto article h1{
+	font-family: "titulo", sans-serif;
+	font-size: 3rem;
+}
+
+.negro article p,
+.cuanto article p,
+.cuan article p{
+	font-family: "parrafo",sans-serif;
+	font-size: 1.7rem;
+}
+
+.cuanto h1,
+.cuan h1{
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.cuan h1{
+	text-align: center;
+}
+
+.cuan article{
+	width: 23%;
+	padding: 50px;
+
+}
+
+.cuan article h2{
+	font-family: "subtitulo";
+	font-size: 2rem;
+}
+
+.cuan article p{
+	font-size: 1.3rem;
+}
+
